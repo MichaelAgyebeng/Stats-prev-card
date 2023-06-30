@@ -1,0 +1,163 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 200px) {
+    main {
+        width: 90%;
+        background-color: hsl(244, 38%, 16%);
+        margin: 20% auto;
+        border-radius: 5px;
+    }
+
+    .pic {
+        width: 100%;
+        height: 15.87em;
+
+    }
+    .violet {
+        height: 15.87em;
+        background: hsl(277, 64%, 61%);
+        opacity: 0.6;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .image {
+        position: relative;
+        background-image: url(../images/image-header-mobile.jpg);
+        background-size: cover;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .group1 {
+        margin: 10% 5%;
+        position: relative;
+        text-align: center;
+    }
+    .get {
+        color: hsl(0, 0%, 100%);
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 1.9em;
+    }
+    #insights {
+        color: hsl(277, 64%, 61%);
+    }
+    #discover {
+        color: hsla(0, 0%, 100%, 0.6);
+        font-weight: 400;
+        font-size: 0.9em;
+        margin: auto;
+        width: 80%;
+        line-height: 1.6em;
+        font-family: Inter;
+    }
+    .group2 {
+        display: flex;
+        flex-direction: column;
+        margin: 5% auto;
+        padding-bottom: 8%;
+
+    }
+    .coy {
+        font-family: 'Inter';
+        color: hsl(0, 0%, 100%);
+        font-weight: 700;
+        margin: 5% auto;
+        font-size: 1.5em;
+    }
+    .below {
+        text-transform: uppercase;
+        color: hsla(0, 0%, 100%, 0.6);
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        font-family: 'Lexend Deca';
+        font-size: 0.5em;
+        margin-top: 7px;
+    
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    main {
+        width: 80%;
+        background-color: hsl(244, 38%, 16%);
+        margin: 15% auto;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    section {
+        width: -webkit-fill-available;
+    }
+    .pic {
+        width: 100%;
+        height: auto;
+
+    }
+    .violet {
+        height: inherit;
+        background: hsl(277, 64%, 61%);
+        opacity: 0.6;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .image {
+        height: 100%;
+        position: relative;
+        background-image: url(../images/image-header-desktop.jpg);
+        background-size: cover;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .group1 {
+        margin: 10% 5%;
+        position: relative;
+        text-align: center;
+    }
+    .get {
+        color: hsl(0, 0%, 100%);
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 1.9em;
+    }
+    #insights {
+        color: hsl(277, 64%, 61%);
+    }
+    #discover {
+        color: hsla(0, 0%, 100%, 0.6);
+        font-weight: 400;
+        font-size: 0.9em;
+        margin: auto;
+        width: 80%;
+        line-height: 1.6em;
+        font-family: Inter;
+    }
+    .group2 {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+    .coy {
+        font-family: Inter;
+        color: hsl(0, 0%, 100%);
+        font-weight: 700;
+        margin: 5% auto;
+        font-size: 1.5em;
+    }
+    .below {
+        text-transform: uppercase;
+        color: hsla(0, 0%, 100%, 0.6);
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        font-family: 'Lexend Deca';
+        font-size: 0.5em;
+        margin-top: 7px;
+    
+    }
+
+
+
+}
